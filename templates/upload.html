@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <table class="table table-striped">
+    <tr class="bg-{{ ok_filename }}">
+        <td>filename</td>
+        <td>{{ filename }}</td>
+    </tr>
+    <tr class="bg-{{ ok_size }}">
+        <td>file size</td>
+        <td>{{ filesize_limit }}</td>
+    </tr>
+
+    <tr class="bg-{{ ok_date }}">
+        <td>upload hour</td>
+        <td>{{ uploadtime }}</td>
+    </tr>
+
+    <tr class="bg-{{ ok_type }}">
+        <td>file type</td>
+        <td>{{ filetype }}</td>
+    </tr>
+
+    <tr class="bg-{{ ok_saved }}">
+        <td colspan="2">{{ saved }}</td>
+    </tr>
+</table>
+</div>
+
+</body>
+</html>

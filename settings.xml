@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+    <!--  Akceptowane formaty plików, może być kilka  -->
+    <filetype>application/x-zip-compressed</filetype>
+    <!-- Rozmiar pliku wyrażony w mb -->
+    <filesize>10</filesize>
+    <starthour>00:00</starthour>
+    <stophour>15:15</stophour>
+    <!--  wyrażenie regularne do sprawdzenia poprawności nazwy pliku  -->
+    <nameregex>[a-z]{2}[0-9]{6}</nameregex>
+</settings>
